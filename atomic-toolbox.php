@@ -49,4 +49,4 @@ class AtomicToolbox {
 }
 
 
-add_action( 'template_redirect', array('MyGallery', 'clean') );
+add_action( 'template_redirect', array( 'AtomicToolbox', 'clean' ) );
